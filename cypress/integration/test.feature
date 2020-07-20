@@ -1,9 +1,9 @@
-Feature: Test
+Feature: Test with multiple domains
 
-  Scenario: Scenario-1
+  Scenario: Test google
     When you visit "https://www.google.de"
     Then the url includes "google"
 
-  Scenario: Scenario-2
+  Scenario: Test ebay
     When you visit "https://www.ebay.de"
     Then the url includes "ebay"
