@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test",
+    "line": 1,
+    "id": "test",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "test;scenario-2",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Scenario-2",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "you visit \"https://www.ebay.de\"",
+            "result": {
+              "status": "passed",
+              "duration": 1629000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the url includes \"ebay\"",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

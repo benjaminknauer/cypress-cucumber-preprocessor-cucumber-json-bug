@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\""
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^2.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
