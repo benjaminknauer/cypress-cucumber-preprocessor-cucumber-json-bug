@@ -3,6 +3,7 @@
     "test": "cypress run --spec \"**/*.feature\""
   },
   "dependencies": {
+    "cypress": "^4.10.0",
     "cypress-cucumber-preprocessor": "^2.5.0"
   },
   "cypress-cucumber-preprocessor": {
